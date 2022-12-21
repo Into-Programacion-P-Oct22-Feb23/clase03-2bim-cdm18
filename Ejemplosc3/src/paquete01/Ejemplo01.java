@@ -22,14 +22,18 @@ public class Ejemplo01 {
         
         // forma 2
         int[][] arreglo2 = {{10, 20, 30}, {100, 200, 300}};
-        
+        String [][] arregloString = {{"Carlos","Eduardo", "Daniel"}, 
+                                {"Luchom", "Alexis", "Michael"}};
         // forma 3
         int[][] arreglo3 = new int[3][];
         arreglo3[0] = new int[2];
         arreglo3[1] = new int[2];
         arreglo3[2] = new int[2];
         
-        // forma 4
+        
+       // un arreglo bidimensional, esta compuesto por varios arreglos unidimensionales
+       //     en un arreglo bidimensional, las filas dan el tamaño del arreglo
+// forma 4
         int[][] arreglo4 = {{10, 20}, {100, 200, 300}};
     }
     
